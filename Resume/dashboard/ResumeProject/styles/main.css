@@ -1,0 +1,89 @@
+bodyCenter {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: purple;
+    padding-left: 25vw;
+    padding-right: 25vw;
+    padding-top: 5vh;
+}
+
+.padding {
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+}
+
+.resume {
+    margin: auto;
+    background: navy;
+    padding: 50px;
+    border-radius: 1%;
+}
+
+.main {
+    width: 90%;
+    background-color: sky blue;
+    display: flex;
+    border-radius: 6px;
+    justify-content: space-between;
+}
+
+.nav {
+    background-color: #f5d7d7;
+    color: #ffffff;
+    padding: 50px;
+    width: 8%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: flex;
+    min-width: 60px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+@media screen and (max-width: 500px) {
+    .nav {
+        display: none;
+    }
+}
+
+button {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #444;
+}
+
+/* Dark mode styles */
+.dark-mode {
+    background-color: #222;
+}
+
+.dark-mode h2 {
+    color: #ffd700;
+}
+
+.dark-mode.project-card {
+    background: #333;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.dark-mode button {
+    background: #ffd700;
+    color: black;
+}
+
+.dark-mode button:hover {
+    background: #ffb400;
+}
